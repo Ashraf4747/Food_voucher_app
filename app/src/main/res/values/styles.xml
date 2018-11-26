@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/tab_bar_color</item>
+         <item name="colorPrimaryDark">@color/tab_bar_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--no Action bar style-->
+    <style name="noActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimaryDark">@color/voucher_item_color</item>
+        >
+    </style>
+
+    <!--custom style-->
+
+    <!--voucher title style-->
+    <style name="voucher_title_style" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <!--end voucher title style-->
+
+    <!--voucher description style-->
+    <style name="voucher_description_style" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/desc_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLength">50</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <!--end voucher description style-->
+
+    <!--fragment style-->
+    <style name="homeStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/master_blue</item>
+        <item name="colorPrimaryDark">@color/master_blue</item>
+    </style>
+    <!--end home fragment style-->
+
+    <!--news style-->
+    <style name="news_title_style" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/title_color</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLength">50</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <!--end news style-->
+
+    <style name="text_style" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/desc_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--login styel-->
+    <style name="loginStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/master_red</item>
+    </style>
+
+    <style name="signup_entry_style" parent="Theme.AppCompat">
+
+    </style>
+</resources>
